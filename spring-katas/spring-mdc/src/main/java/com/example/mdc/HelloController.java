@@ -15,7 +15,7 @@ public class HelloController {
     private static final Logger log = LoggerFactory.getLogger(HelloController.class);
 
     @GetMapping
-    public String get(@RequestHeader("X-Correlation-Id") String correlationId) {
+    public String get(@RequestHeader("X-Correlation-ID") String correlationId) {
         try {
             MDC.put("correlation-id", correlationId);
             log.info("Logging hello request");
