@@ -1,0 +1,18 @@
+### Get all names
+GET http://localhost:8080/names
+
+### Add name
+POST http://localhost:8080/names
+Content-Type: text/plain
+
+Miguel
+
+### Update name
+PUT http://localhost:8080/names/2bfc9804-3205-493d-97f7-e1a3f93c3b05
+Content-Type: text/plain
+
+Pedro
+
+### Delete name
+DELETE http://localhost:8080/names/0b93e4f9-138a-4f29-8c47-9f5ec3ec685a
+
