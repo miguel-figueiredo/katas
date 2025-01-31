@@ -1,4 +1,4 @@
-package com.example.shopping.user.adapter.in.rest;
+package com.example.shopping.purchase.adapter.in.rest;
 
 import com.example.shopping.user.port.in.ActivateUser;
 import com.example.shopping.user.port.in.CreateUser;

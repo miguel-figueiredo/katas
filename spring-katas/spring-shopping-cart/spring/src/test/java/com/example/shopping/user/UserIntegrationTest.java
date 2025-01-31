@@ -1,6 +1,6 @@
 package com.example.shopping.user;
 
-import com.example.shopping.user.adapter.in.rest.CreateUserRequest;
+import com.example.shopping.purchase.adapter.in.rest.CreateUserRequest;
 import com.example.shopping.user.domain.model.User;
 import com.example.shopping.user.port.out.UserRepository;
 import io.restassured.http.ContentType;
